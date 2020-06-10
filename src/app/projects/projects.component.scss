@@ -1,0 +1,53 @@
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card {
+    width: 500px;
+    margin: 50px 20px;
+}
+
+.description {
+    font-size: 18px;
+    line-height: 1.3;
+}
+
+.feature-list ul {
+    list-style: circle;
+}
+
+mat-card-content {
+    height: 200px;
+}
+
+mat-card-actions {
+    min-height: 40px;
+}
+
+.card-links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card-links a {
+    margin: 15px 5px 5px 5px;
+}
+
+.card-links a:hover {
+    background-color: black;
+    color: white;
+}
+
+.card-links a mat-icon {
+    padding-bottom: 3px;
+    padding-right: 3px;
+}
+
+@media screen and (max-width: 1200px) {
+    .card {
+        width: 80%;
+        margin: 20px auto;
+    }
+}
